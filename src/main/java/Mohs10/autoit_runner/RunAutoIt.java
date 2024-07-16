@@ -7,8 +7,8 @@ public class RunAutoIt {
     public static void main(String[] args) {
         try {
             // Path to the AutoIt executable and script
-            String autoItExecutable = "C:\\Users\\DELL\\Downloads\\Insta_Safe_Open.exe";
-            String autoItScript = "C:\\Users\\DELL\\Downloads\\Insta_Safe_Connect.bat";  // Update this path to your script location
+            String autoItExecutable = "C:\\Users\\Dell\\Downloads\\Insta_Safe_Open.exe";
+            String autoItScript = "C:\\Users\\Dell\\Downloads\\Instasafe.bat";  // Update this path to your script location
 
             // Build the process
             ProcessBuilder processBuilder = new ProcessBuilder(autoItExecutable, autoItScript);
